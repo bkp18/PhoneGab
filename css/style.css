@@ -1,0 +1,21 @@
+h1 {
+	color: blue;
+}
+
+.subsection-headline {
+	color: white;
+}
+
+.subsection-link {
+	color: white;
+}
+
+#american-section {
+	background-image: url("../images/american-bg.png");	
+}
+
+#manga-section {
+	background-image: url("../images/manga-bg.PNG");
+}
+
+
