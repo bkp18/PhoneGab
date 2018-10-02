@@ -1,21 +1,52 @@
-h1 {
-	color: blue;
-}
-
-.subsection-headline {
+body {
+	text-align: center;
 	color: white;
+	font-size: 20px;
+	font-family: helvetica;
+	background-color: #058CCC;
 }
 
-.subsection-link {
+#divFormular {
+	position: relative;
+	top: -400px;
+	width: auto;
+	height: auto;
+	max-width: 80%;
+	margin: 0 auto;
+	opacity: 0;
+	z-index: 1;
+}
+
+#divBackgroundImage {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: -1;
+}
+
+.input {
+	height: 40px;
+	width: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 20px;
+	font-family: helvetica;
+	background-color: white;
+	outline: none;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.button {
+	height: 40px;
+	width: 200px;
+	margin: 5px;
 	color: white;
+	font-size: 20px;
+	font-family: helvetica;
+	background-color: black;
+	outline: none;
+	border: 0px;
+	border-radius: 5px;
 }
-
-#american-section {
-	background-image: url("../images/american-bg.png");	
-}
-
-#manga-section {
-	background-image: url("../images/manga-bg.PNG");
-}
-
-

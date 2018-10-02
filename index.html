@@ -1,23 +1,37 @@
 <html>
-	<title>
-		My Forms
-	</title>
-	<script src="js/camera.js"></script>
+	<head>
+		<!-- Meta Data -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+		
+		<!-- Libraries -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		
+		<!-- StyleSheet -->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- Scripts -->
+		<script src="js/index.js"></script>
+		<script src="js/access.js"></script>
+	</head>
+	<body>
+		<div id="divFormular">
+			<h1>INDEX</h1>
+			
+			<input id="update" class="button" type="button" value="update">
+			<input id="delete" class="button" type="button" value="delete">
+			<input id="logout" class="button" type="button" value="logout">
+			<br/>
+			<br/>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis venenatis ex. Aenean non ornare odio. Vestibulum pretium iaculis vehicula. Vestibulum convallis lectus non ligula euismod, sit amet ultricies libero ullamcorper. Nulla facilisi. Vivamus diam tellus, cursus sit amet dolor vehicula, faucibus convallis nulla. Nam consectetur tortor ac erat fringilla, vel efficitur nisi finibus. Nunc et enim luctus, venenatis sem a, feugiat nisl. Donec consectetur bibendum mauris ac molestie. Donec auctor ultricies ex, a iaculis nulla ornare vel. Integer porta nibh at lorem fringilla ullamcorper. Quisque rhoncus sit amet sem ut sollicitudin. Integer ac ante a nibh luctus tempor. Vivamus eu justo ultrices, rutrum mauris id, imperdiet lorem. Proin nec ex ultrices leo placerat auctor sagittis vitae est.
+			Pellentesque sem neque, interdum eget magna vel, congue ornare odio. In eleifend leo sed tortor cursus, et efficitur orci porta. Quisque blandit massa id scelerisque eleifend. Nunc vel aliquet nunc, nec finibus enim. Duis molestie neque ut aliquam mattis. Suspendisse malesuada a diam ut vehicula. Nunc nec velit sed augue posuere faucibus. Nam fermentum, mi sed luctus pretium, justo magna aliquam lacus, a sollicitudin ante velit eu purus. Curabitur pharetra id urna vitae tempor. Donec semper, elit in blandit efficitur, quam risus rhoncus lorem, pretium elementum velit dolor sit amet quam. Proin pretium maximus fringilla. Nullam sed dui vehicula, molestie dui ac, vulputate neque. Integer vel risus non massa faucibus fringilla vel eget mi. Sed et metus eget orci egestas elementum. Quisque iaculis imperdiet nisi, quis commodo nunc iaculis at. Fusce pharetra, dolor sed porttitor euismod, mi ante semper mi, vel mattis urna ligula sed ipsum.
+			Praesent luctus arcu sed nisl tempor eleifend. Duis maximus magna non eros sodales dignissim. Etiam ut orci quis sem molestie porttitor. Vivamus venenatis eu nunc vitae condimentum. Nullam ut ex massa. Morbi et turpis justo. Morbi egestas consectetur dui, ut porttitor velit maximus sit amet. Sed euismod vitae dui convallis semper.
+			Duis dolor turpis, aliquet ac nisi in, ornare convallis eros. Cras sed nunc id turpis dictum dignissim ut et augue. Morbi scelerisque vehicula sodales. Morbi ex justo, condimentum sed justo ut, egestas elementum ipsum. Nunc ultricies sem leo, vitae malesuada nunc sagittis ac. In eget quam ornare, facilisis neque dignissim, viverra ipsum. Suspendisse potenti. Nunc bibendum, purus ac placerat condimentum, urna elit eleifend leo, sed elementum ligula risus eu libero. Pellentesque volutpat non ante eget euismod. Nunc leo nisl, scelerisque non nisl a, ultrices rutrum purus. Cras vitae est nec lectus lobortis suscipit et eu nulla. Suspendisse potenti. Nunc eget sodales nibh, vel porttitor mi.
+			Donec eu accumsan sapien. Etiam non mauris nisl. Nunc facilisis, mi ut tincidunt dictum, risus tortor vehicula orci, sit amet bibendum lectus ante in nunc. Cras hendrerit scelerisque odio, quis fermentum neque luctus hendrerit. Nunc auctor fringilla lacus at ornare. Donec mattis porta dolor nec bibendum. Quisque aliquam nisl et imperdiet pharetra.
+		</div>
+		
+		<div id="divBackgroundImage">
+			<img id="backgroundImage" src="images/totoro.PNG">
+		</div>
+	</body>
 </html>
-<body>
-	Camera v. 1
-	<video autoplay></video>
-
-	<script>
-	const constraints = {
-	  video: true
-	};
-	
-	const video = document.querySelector('video');
-	
-	navigator.mediaDevices.getUserMedia(constraints).
-	  then((stream) => {video.srcObject = stream});
-	</script>
-</body>
-
-
